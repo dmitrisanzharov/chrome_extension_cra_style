@@ -18,30 +18,12 @@
     "default_popup": "./popup.html"
   },
   "version": "0.0.1",
-  "author": "Dmitri",
-  "name": "aaa_Chrome extension cra style by Dmitri",
-  "description": "foo bar",
+  "author": "Dmitri Sanzharov",
+  "name": "DEV | Chrome extension cra style",
+  "description": "aaa_rev4",
   "background": {
     "service_worker": "./static/background/index.ts"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "../contents/content.js"
-      ]
-    },
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "../contents/content2.js"
-      ]
-    }
-  ],
   "host_permissions": [
     "https://*/*"
   ]
